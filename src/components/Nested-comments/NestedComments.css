@@ -1,0 +1,17 @@
+.NestedCommentsWrapper button {
+  padding: 4px 5px;
+  border-radius: 5%;
+  background-color: #f3f800;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 5px;
+}
+.NestedComments {
+  font-size: 20px;
+  font-weight: bold;
+}
+.NestedCommentsWrapper textarea {
+  border: 2px solid black;
+  border-radius: 5%;
+}

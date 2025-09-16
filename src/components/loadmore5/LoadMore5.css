@@ -1,0 +1,32 @@
+.loadMore5Wrapper {
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  color: blueviolet;
+  background: rgb(255, 255, 255);
+  width: 100vw;
+}
+.loadMore5cont {
+     
+ /* display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px; */
+  
+}
+.prod5{
+   display: flex;
+   /* width:350px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid greenyellow
+}
+.loadMore5Wrapper button{
+    margin-top: 10px;
+}
+.prodCont5{
+margin-top: 135px;
+ display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}

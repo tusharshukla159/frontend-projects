@@ -1,0 +1,12 @@
+.tab-item {
+    display: flex;
+    text-align: center;
+    padding: 10px 15px;
+    color: #fff;
+    background: #4e016a;
+    margin: 5px
+  }
+  .tab-item.active{
+    background: orange
+  }
+  

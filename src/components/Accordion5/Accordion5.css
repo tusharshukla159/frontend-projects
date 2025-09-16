@@ -1,0 +1,27 @@
+.accordion5wrapper {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion5 {
+      background-color: blanchedalmond;
+      width:450px
+}
+.accordion5 div{
+  
+}
+.item5{
+    background-color: rgb(151, 69, 2);
+    margin-top: 20px ;
+    margin-bottom: 20px ;
+    color: white;
+    
+}
+.accordion5wrapper button{
+    margin-bottom: 30px;
+}

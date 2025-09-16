@@ -1,0 +1,16 @@
+.tabs3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.tabsItem{
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+    background-color: blueviolet;
+    text-align: center;
+}
+.tabsItem.active{
+    background-color: yellow;
+    color: black;
+}

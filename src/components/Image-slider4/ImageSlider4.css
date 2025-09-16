@@ -1,0 +1,46 @@
+.slider4Wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sliderCont4 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 480px;
+  height: 390px;
+}
+.avatar {
+  width: 480px;
+  height: 390px;
+}
+.inactive {
+  display: none;
+}
+.arrow {
+  position: absolute;
+}
+.left {
+  left: 10px;
+}
+.right {
+  right: 10px;
+}
+.circleIndicatorr{
+    position: absolute;
+    bottom: 10px;
+
+}
+.currIndicatorr{
+    width: 10px;
+    height: 10px;
+    border-radius: 75%;
+    margin: 1.5px;
+    border: none;
+}
+.currIndicatorr.nonactive{
+    background-color: grey;
+}

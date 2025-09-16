@@ -1,0 +1,15 @@
+.currencyConvertorWrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.currencyCovertor input{
+  padding:15px;
+  border-radius: 8px;
+}
+.currencyCovertor select{
+    padding: 15px;
+    border: 1px solid #080606;
+    border-radius: 8px;
+}

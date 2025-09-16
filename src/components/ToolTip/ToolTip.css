@@ -1,0 +1,21 @@
+.ToolWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.TooltipWrapper {
+  position: relative;
+}
+
+.ToolTip {
+  position: absolute;
+  top: calc(-100% - 50px);
+  transform: translateX(-50%);
+  background-color: #0c0101;
+  color: #fff;
+  padding: 15px;
+  min-width: 300px;
+}

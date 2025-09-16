@@ -1,0 +1,23 @@
+.catbtn{
+     padding: 12px 20px;
+    background-color: #f3f800;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border: black;
+    margin: 20px;
+}
+.filterProduct li{
+    padding: 20px;
+    background-color: #762cc0;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.active{
+     background-color: #000;
+    color: #f3f800 ;
+}

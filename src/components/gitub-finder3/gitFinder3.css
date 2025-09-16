@@ -1,0 +1,37 @@
+.git3Wrapper{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.git3cont{
+    width: 500px;
+    height:400px;
+    border: 2px solid green;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 30px;
+}
+.inputCont{
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    margin-top: 5px;
+}
+.userCont{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:rgb(251, 25, 70)
+}
+.avatar{
+    width: 250px;
+    height: 250px;
+}
+.git3Wrapper{
+    display: flex;
+    flex-direction: column;
+    color: rgb(120, 173, 40);
+}

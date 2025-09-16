@@ -1,0 +1,53 @@
+.SliderCont {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+  width: 450px;
+}
+
+.arrow {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #fff;
+  filter: drop-shadow(0px 0px 5px #555);
+}
+
+.arrow-left {
+  left: 1rem;
+}
+
+.arrow-right {
+  right: 1rem;
+}
+.CurrImage {
+  height: 350px;
+  width: 450px;
+  border: none;
+  border-radius: 5px;
+}
+.hide {
+  display: none;
+ 
+}
+
+.circle-indicators {
+  position: absolute;
+  bottom: 0.5rem;
+}
+
+.CurrIndicator {
+  background-color: #ffffff;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+.inactive {
+  background-color: gray;
+}

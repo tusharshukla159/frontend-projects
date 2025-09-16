@@ -1,0 +1,20 @@
+.loadMoreWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+.mainWrapper {
+  text-align: center;
+  gap: '10px';
+}
+
+.product {
+  height: "30px";
+  width: "20px";
+  border: 3px solid green;
+  text-align: center;
+}
+.product image {
+  height: "20px";
+  width: "10px";
+}

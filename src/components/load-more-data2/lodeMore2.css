@@ -1,0 +1,25 @@
+.productItem {
+  border: 2px solid rgb(121, 214, 63);
+  text-align: center;
+}
+.productCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: white;
+  margin-top: 115px;
+}
+
+.lodeMoreCont {
+  background-color: rgb(248, 219, 248);
+}
+.top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #f1eef1;
+}
+.top button {
+  margin-bottom: 5px;
+}

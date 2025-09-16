@@ -1,0 +1,51 @@
+.formContents input{
+   flex: 2;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    margin: auto;
+    width: 150px;
+}
+.formContents label{
+     flex: 1;
+     text-align: left;
+     width:200px
+}
+.FormValidationWrapper{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.FormValidation{
+       display: flex;
+    gap: 10px;
+    
+}
+.formContents span{
+    flex: 1;
+    color: red;
+    /* font-weight: bold; */
+    font-size: 16px;
+}
+
+.FormValidation{
+    width: 600px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.formContents{
+    display: flex;
+  align-items: center;
+  gap: 8px; 
+}
+form button {
+    
+    cursor: pointer;
+    margin-top: 210px;
+}

@@ -1,0 +1,7 @@
+.active {
+  color: yellow;
+}
+.starRating {
+  display: flex;
+  justify-content: center;
+}
